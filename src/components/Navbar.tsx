@@ -17,7 +17,7 @@ export default function Navbar() {
     { name: 'Contact', href: '#contact' },
   ]
 
-  const handleNavClick = (e: React.MouseEvent<HTMLAnchorElement>) => {
+  const handleNavClick = () => {
     setIsOpen(false)
   }
 

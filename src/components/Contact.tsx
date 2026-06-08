@@ -34,13 +34,6 @@ export default function Contact() {
     }, 1500)
   }
 
-  const socialLinks = [
-    { icon: 'GitHub', url: 'https://github.com/DhanushbhandaryD123', label: 'GitHub' },
-    { icon: 'LinkedIn', url: 'https://www.linkedin.com/in/dhanush-bhandary-438784376', label: 'LinkedIn' },
-    { icon: 'Email', url: 'mailto:dhanushbhandary14@gmail.com', label: 'Email' },
-    { icon: 'Phone', url: 'tel:+918431457057', label: 'Phone' },
-  ]
-
   return (
     <section id="contact" className="relative min-h-screen w-full py-24 px-4 bg-dark overflow-hidden">
       {/* Background */}

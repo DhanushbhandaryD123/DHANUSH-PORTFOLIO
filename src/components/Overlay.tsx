@@ -1,6 +1,6 @@
 'use client'
 
-import { useEffect, useRef, useState, MutableRefObject } from 'react'
+import { useEffect, useState, MutableRefObject } from 'react'
 import { motion } from 'framer-motion'
 
 interface OverlayProps {
